@@ -1,0 +1,29 @@
+{
+    "name": "agixo/ldap-bundle",
+    "description": "LDAP Bundle for Symfony 2",
+    "homepage": "http://github.com/mosch/LdapBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moritz Schwörer",
+            "email": "mr.mosch@gmail.com",
+            "role": "Developer",
+            "homepage" : "https://github.com/mosch"
+        }
+    ],
+    "support": {
+        "irc": "https://github.com/mosch/ldap-bundle/issues"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "ext-ldap": "*",
+        "symfony/symfony": ">2.4",
+        "tiesa/ldap": "dev-master"
+
+    },
+    "autoload": {
+        "psr-0": { "Agixo\\LdapBundle": "" }
+    },
+
+    "target-dir": "Agixo/LdapBundle"
+}

@@ -1,0 +1,4 @@
+services:
+    ldap.manager:
+        class: Agixo\LdapBundle\Ldap
+        arguments: ["%agixo_ldap.driver%", "@logger"]
